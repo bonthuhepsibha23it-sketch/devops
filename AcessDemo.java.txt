@@ -1,0 +1,16 @@
+package MyPack1
+public class AccessDemo
+{
+public int pubvar1=10;
+public int privar2=20;
+public int provar3=30;
+int devar4=40;
+void display()
+{
+System.out.println("with in the same calss");
+System.out.println("public:"+pubvar1);
+System.out.println("private:"+privar2);
+System.out.println("protected:"+provar3);
+System.out.println("default:"+devar4);
+}
+}
