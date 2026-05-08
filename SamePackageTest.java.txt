@@ -1,0 +1,13 @@
+package Mypack1
+public class SamePackageTest
+{
+public static void main(String args[])
+{
+AccessDemo obj=new AccessDemo();
+System.out.println("with in the same pakage");
+System.out.println("public:"+pubvar1);
+System.out.println("private:"+privar2);
+System.out.println("protected:"+provar3);
+System.out.println("default:"+devar4);
+}
+}
